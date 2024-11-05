@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+:root {
+    --purple500: #281154;
+    --purple300: #270082;
+    --purple600: #1b0058;
+    --red600: #dc0000;
+    --body: #f9f6ff;
+    --max-width: 1200px;
+  }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body,html{
+    font-family: "Roboto", sans-serif;
+    line-height: 1.4;
+    font-weight: 300;
+    scroll-behavior: smooth;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+ul{
+    list-style: none;
+}
+.Nevigation{
+   max-width: 1200px;
+   margin: 0 auto;
+}
+.title{
+    color: white;
+}
+header{
+    background-color: var(--purple300);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    box-shadow: 5px 5px 5px rgba(1, 1, 1,0.5);
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 10px;
+}
+nav ul{
+    display: flex;
+    gap: 20px;
+}
+nav ul li{
+    border-bottom: 2px solid transparent;
+    transition: 0.2s ease-in;
+}
+nav ul li:hover{
+    border-bottom: 2px solid white ;
+    transition: 0.2s ease-in;
+}
+.hero_section{
+    background-image: url(/Projects/Project6/image/DJ\ Hands.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: grid;
+    color: white;
+    place-items: center;
+    text-align: center;
+    gap: 10px;
+}
+.hero_section .container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 0 auto;
+}
+.hero_section h2{
+    font-size: 96px;
+}
+.hero_section h3{
+    font-size: 40px;
+}
+.hero_section p{
+    font-size: 20px;
+}
+.Music{
+    padding:50px 0px 30px 30px;
+    background-color: #270082;
+    color: white;
+}
+.Music .container{ 
+    display:flex ;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+h1 img{
+    width: 40px;
+    height: 40px;
+}
+
+.container h1{
+    font-size: 40px;
+}
+button{
+    padding: 10px 20px;
+    background-color: orangered;
+    color: white;
+    transition: 0.2s ease-in-out;
+}
+button:hover{
+    opacity: 0.8;
+    transition: 0.2s ease-in-out;
+}
+.ipad{
+    margin-top: -400px;
+    position: relative;
+    top: 400px;
+}
+.About{
+    padding: 500px 0 30px 30px;
+    display: grid;
+    place-items: center;
+    text-align: center;
+    gap: 30px;
+}
+.sbtn{
+    background-color: var(--purple600);
+    color: white;
+}
+.Video{
+    background-image: url(/Projects/Project6/image/video.png);
+    color: white;
+    display: grid;
+    place-items: center;
+    text-align: center;
+    background-size: cover;
+    height: 100vh;
+}
+.Video .container{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.hero_section,
+.Video{
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.Gift{
+    display: flex;
+    justify-content: center;
+    margin: 100px 30px;
+    gap: 30px;
+}
+.card_content{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.tbtn{
+   background-color:var(--purple600);
+   color: white;
+   width: 90px;
+}
+footer{
+    color: white;
+}
+.footer_upper{
+    background-color:var(--purple500);
+    padding: 10px 30px;
+}
+.footer_upper h4{
+    padding-bottom: 10px;
+    border-bottom: 2px solid white;
+    margin-bottom: 10px;
+}
+.footer_upper .container{
+    display: flex;
+    justify-content: space-between;
+}
+.footer_lower{
+    background-color: var(--purple300);
+    text-align: center;
+    padding: 20px 0;
+}
+.footer_lower p{
+    font-size: 20px;
+}
